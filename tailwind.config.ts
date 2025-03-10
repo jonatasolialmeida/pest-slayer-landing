@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom color scheme for insect repellent site
+				forest: {
+					DEFAULT: '#2C5E1A',
+					light: '#3E7A2C',
+					dark: '#1A3E0E',
+				},
+				charcoal: {
+					DEFAULT: '#333333',
+					light: '#555555',
+					dark: '#222222',
+				},
+				gray: {
+					100: '#F6F6F7',
+					200: '#E8E8E9',
+					300: '#C8C8C9',
+					400: '#A0A0A2',
+					500: '#8A898C',
+					600: '#6A696C',
+					700: '#4A494C',
+					800: '#333333',
+					900: '#222222',
 				}
 			},
 			borderRadius: {
@@ -70,26 +93,42 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'fade-in-slow': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
+				},
+				'slide-in': {
+					'0%': { transform: 'translateX(-20px)', opacity: '0' },
+					'100%': { transform: 'translateX(0)', opacity: '1' }
+				},
+				'image-shimmer': {
+					'0%': { backgroundPosition: '-468px 0' },
+					'100%': { backgroundPosition: '468px 0' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'fade-in-slow': 'fade-in-slow 0.8s ease-out',
+				'slide-in': 'slide-in 0.5s ease-out',
+				'image-shimmer': 'image-shimmer 1.2s infinite linear'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['SF Pro Display', 'Inter', 'sans-serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

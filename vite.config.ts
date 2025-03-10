@@ -28,7 +28,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: "./", // <-- Isso garante que os caminhos relativos funcionem corretamente no Render
+  base: "/", // <-- Isso garante que os caminhos relativos funcionem corretamente no Render
   server: {
     host: "::",
     port: 8080,

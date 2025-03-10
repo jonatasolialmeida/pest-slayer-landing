@@ -26,7 +26,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 
 import path from "path";
-import componentTagger from "vite-plugin-component-tagger"; // Se você usa este plugin
 
 export default defineConfig(({ mode }) => ({
   base: "./", // <-- Isso garante que os caminhos relativos funcionem corretamente no Render

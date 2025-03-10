@@ -9,18 +9,18 @@ const HowItWorks = () => {
   
   const steps = [
     {
-      title: "Identify Problem Areas",
-      description: "Locate areas with the highest insect activity, typically near windows, doors, trash bins, or food preparation areas.",
+      title: "Identifique Áreas Problemáticas",
+      description: "Localize áreas com maior atividade de insetos, normalmente próximas a janelas, portas, lixeiras ou áreas de preparação de alimentos.",
       image: images.step1,
     },
     {
-      title: "Apply Product",
-      description: "Shake well and spray directly on surfaces where insects land or gather. Apply to windowsills, door frames, and other entry points.",
+      title: "Aplique o Produto",
+      description: "Agite bem e pulverize diretamente nas superfícies onde os insetos pousam ou se reúnem. Aplique nos peitoris de janelas, batentes de portas e outros pontos de entrada.",
       image: images.step2,
     },
     {
-      title: "Enjoy Immediate Results",
-      description: "Watch as flying insects are eliminated within minutes. The formula continues working for 24 hours, providing lasting protection.",
+      title: "Desfrute de Resultados Imediatos",
+      description: "Observe como os insetos voadores são eliminados em minutos. A fórmula continua funcionando por 24 horas, proporcionando proteção duradoura.",
       image: images.step3,
     }
   ];
@@ -30,11 +30,11 @@ const HowItWorks = () => {
       <div className="section-container">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-charcoal mb-4">
-            Three Simple Steps to a <span className="text-gradient">Fly-Free Environment</span>
+            Três Passos Simples para um <span className="text-gradient">Ambiente Livre de Moscas</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Our product is designed for effortless application and maximum effectiveness, 
-            giving you peace of mind with minimal effort.
+            Nosso produto é projetado para aplicação sem esforço e máxima eficácia, 
+            proporcionando tranquilidade com o mínimo de esforço.
           </p>
         </div>
 

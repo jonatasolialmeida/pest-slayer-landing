@@ -12,16 +12,16 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in-slow">
             <div className="space-y-2">
               <div className="inline-block px-3 py-1 rounded-full bg-forest/10 text-forest text-xs font-semibold tracking-wide">
-                PROFESSIONAL INSECT CONTROL
+                CONTROLE PROFISSIONAL DE INSETOS
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-charcoal leading-tight">
-                Say Goodbye To <span className="text-gradient">Flies</span> Forever
+                Diga Adeus às <span className="text-gradient">Moscas</span> Para Sempre
               </h1>
             </div>
             
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our advanced formula eliminates flies and other insects with unmatched efficiency, 
-              providing immediate results and long-lasting protection for your home or business.
+              Nossa fórmula avançada elimina moscas e outros insetos com eficiência incomparável, 
+              proporcionando resultados imediatos e proteção duradoura para sua casa ou empresa.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -29,24 +29,24 @@ const Hero = () => {
                 href="#products" 
                 className="button-hover flex items-center justify-center px-6 py-3 bg-forest text-white font-medium rounded-lg shadow-md hover:shadow-lg"
               >
-                Explore Products <ArrowRight className="ml-2 h-4 w-4" />
+                Explorar Produtos <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a 
                 href="#how-it-works" 
                 className="button-hover flex items-center justify-center px-6 py-3 bg-white text-charcoal border border-gray-300 font-medium rounded-lg hover:bg-gray-50"
               >
-                How It Works
+                Como Funciona
               </a>
             </div>
             
             <div className="flex items-center space-x-6 pt-4">
               <div className="flex items-center">
                 <ShieldCheck className="h-5 w-5 text-forest mr-2" />
-                <span className="text-sm text-gray-600">100% Satisfaction</span>
+                <span className="text-sm text-gray-600">100% Satisfação</span>
               </div>
               <div className="flex items-center">
                 <BugOff className="h-5 w-5 text-forest mr-2" />
-                <span className="text-sm text-gray-600">Natural Ingredients</span>
+                <span className="text-sm text-gray-600">Ingredientes Naturais</span>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="p-2 animate-fade-in">
               <ProductImage 
                 src={images.heroProduct} 
-                alt="PestZero Fly Elimination Spray" 
+                alt="PestZero Spray de Eliminação de Moscas" 
                 className="w-full rounded-2xl shadow-xl"
                 priority={true}
               />
@@ -67,14 +67,14 @@ const Hero = () => {
             <div className="absolute -bottom-4 -left-4 bg-white px-4 py-2 rounded-lg shadow-lg animate-fade-in">
               <div className="flex items-center">
                 <span className="text-forest font-bold text-3xl">99%</span>
-                <span className="ml-2 text-gray-600 text-sm">Elimination<br/>Rate</span>
+                <span className="ml-2 text-gray-600 text-sm">Taxa de<br/>Eliminação</span>
               </div>
             </div>
             
             <div className="absolute top-1/4 -right-4 bg-white px-4 py-2 rounded-lg shadow-lg animate-fade-in">
               <div className="flex items-center">
-                <span className="text-forest font-bold">24hr</span>
-                <span className="ml-2 text-gray-600 text-xs">Protection</span>
+                <span className="text-forest font-bold">24h</span>
+                <span className="ml-2 text-gray-600 text-xs">Proteção</span>
               </div>
             </div>
           </div>

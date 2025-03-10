@@ -10,11 +10,11 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "Products", href: "#products" },
-    { name: "How It Works", href: "#how-it-works" },
-    { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" }
+    { name: "Início", href: "#home" },
+    { name: "Produtos", href: "#products" },
+    { name: "Como Funciona", href: "#how-it-works" },
+    { name: "Depoimentos", href: "#testimonials" },
+    { name: "Contato", href: "#contact" }
   ];
 
   // Handle scroll events to change header appearance

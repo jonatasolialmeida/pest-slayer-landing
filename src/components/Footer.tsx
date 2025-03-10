@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="md:col-span-1 space-y-4">
             <h3 className="text-2xl font-display font-bold text-white">Pest<span className="text-forest-light">Zero</span></h3>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Premium insect control solutions for residential and commercial environments. 
-              Scientifically formulated for maximum effectiveness.
+              Soluções premium de controle de insetos para ambientes residenciais e comerciais. 
+              Cientificamente formulado para máxima eficácia.
             </p>
             <div className="pt-2 flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -36,69 +36,69 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div className="md:col-span-1">
-            <h4 className="text-white font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-white font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-white text-sm transition-colors">Home</a>
+                <a href="#home" className="text-gray-400 hover:text-white text-sm transition-colors">Início</a>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-white text-sm transition-colors">Products</a>
+                <a href="#products" className="text-gray-400 hover:text-white text-sm transition-colors">Produtos</a>
               </li>
               <li>
-                <a href="#how-it-works" className="text-gray-400 hover:text-white text-sm transition-colors">How It Works</a>
+                <a href="#how-it-works" className="text-gray-400 hover:text-white text-sm transition-colors">Como Funciona</a>
               </li>
               <li>
-                <a href="#testimonials" className="text-gray-400 hover:text-white text-sm transition-colors">Testimonials</a>
+                <a href="#testimonials" className="text-gray-400 hover:text-white text-sm transition-colors">Depoimentos</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">About Us</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Sobre Nós</a>
               </li>
             </ul>
           </div>
           
           {/* Support */}
           <div className="md:col-span-1">
-            <h4 className="text-white font-semibold mb-4">Support</h4>
+            <h4 className="text-white font-semibold mb-4">Suporte</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">FAQ</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Perguntas Frequentes</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Shipping & Returns</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Envio e Devoluções</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Política de Privacidade</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Termos de Serviço</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Contact Us</a>
+                <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Fale Conosco</a>
               </li>
             </ul>
           </div>
           
           {/* Contact */}
           <div className="md:col-span-1">
-            <h4 className="text-white font-semibold mb-4">Contact Us</h4>
+            <h4 className="text-white font-semibold mb-4">Contato</h4>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-forest-light mr-3 mt-0.5" />
                 <span className="text-gray-400 text-sm">
-                  123 Insect Control Ave<br />
-                  San Francisco, CA 94107
+                  Rua Controle de Insetos, 123<br />
+                  São Paulo, SP 04107
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-forest-light mr-3" />
-                <a href="tel:+15555555555" className="text-gray-400 hover:text-white text-sm transition-colors">
-                  (555) 555-5555
+                <a href="tel:+5511555555555" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  (11) 5555-5555
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-forest-light mr-3" />
                 <a href="mailto:info@pestzero.com" className="text-gray-400 hover:text-white text-sm transition-colors">
-                  info@pestzero.com
+                  info@pestzero.com.br
                 </a>
               </li>
             </ul>
@@ -107,7 +107,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            &copy; {currentYear} PestZero. All rights reserved.
+            &copy; {currentYear} PestZero. Todos os direitos reservados.
           </p>
         </div>
       </div>
